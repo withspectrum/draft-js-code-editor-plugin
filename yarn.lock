@@ -1181,9 +1181,9 @@ diff@^3.2.0:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.3.1.tgz#aa8567a6eed03c531fc89d3f711cd0e5259dec75"
 
-draft-js-code@Gywem/draft-js-code#fix/draft-js-peer:
-  version "0.2.0"
-  resolved "https://codeload.github.com/Gywem/draft-js-code/tar.gz/e635d44145c761ba1161cd8b9e3e11b559a08d22"
+draft-js-code@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/draft-js-code/-/draft-js-code-0.2.2.tgz#a9ed8b310a3b80a54a31109abfb4969611d06b47"
   dependencies:
     detect-indent "^4.0.0"
     detect-newline "^2.1.0"
