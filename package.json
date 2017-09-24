@@ -1,0 +1,44 @@
+{
+  "name": "draft-js-code-editor-plugin",
+  "version": "0.1.0",
+  "description": "Add IDE-like behaviours to code blocks in DraftJS editors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/withspectrum/draft-js-code-editor-plugin.git"
+  },
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "precommit": "lint-staged",
+    "prebuild": "rimraf dist",
+    "build": "babel src --out-dir dist --ignore '*.test.js'",
+    "test": "jest src",
+    "prettier": "prettier 'src/**/*.js'",
+    "flow": "flow src"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "^6.23.0",
+    "draft-js": "0.x",
+    "flow-bin": "^0.55.0",
+    "husky": "^0.14.3",
+    "jest": "^21.1.0",
+    "lint-staged": "^4.2.2",
+    "prettier": "^1.7.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "draft-js": "0.x",
+    "draft-js-code": "^0.2.2"
+  }
+}
