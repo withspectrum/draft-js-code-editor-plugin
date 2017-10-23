@@ -1,6 +1,6 @@
 {
   "name": "draft-js-code-editor-plugin",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Add IDE-like behaviours to code blocks in DraftJS editors",
   "repository": {
     "type": "git",
