@@ -1181,14 +1181,14 @@ diff@^3.2.0:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.3.1.tgz#aa8567a6eed03c531fc89d3f711cd0e5259dec75"
 
-draft-js-code@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/draft-js-code/-/draft-js-code-0.2.2.tgz#a9ed8b310a3b80a54a31109abfb4969611d06b47"
+draft-js-code@0.3.x:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/draft-js-code/-/draft-js-code-0.3.0.tgz#d955d134367baeee5844b57f897c8d848bc979c5"
   dependencies:
     detect-indent "^4.0.0"
     detect-newline "^2.1.0"
     ends-with "^0.2.0"
-    immutable "^3.8.1"
+    immutable "3.x"
 
 draft-js@0.x:
   version "0.10.2"
@@ -1681,9 +1681,9 @@ iconv-lite@~0.4.13:
   version "0.4.19"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.19.tgz#f7468f60135f5e5dad3399c0a81be9a1603a082b"
 
-immutable@^3.8.1:
-  version "3.8.1"
-  resolved "https://registry.yarnpkg.com/immutable/-/immutable-3.8.1.tgz#200807f11ab0f72710ea485542de088075f68cd2"
+immutable@3.x:
+  version "3.8.2"
+  resolved "https://registry.yarnpkg.com/immutable/-/immutable-3.8.2.tgz#c2439951455bb39913daf281376f1530e104adf3"
 
 immutable@~3.7.4:
   version "3.7.6"

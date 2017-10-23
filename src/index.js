@@ -43,7 +43,7 @@ const createCodeEditorPlugin = (options?: Options) => {
       const editorState = getEditorState()
       if (!CodeUtils.hasSelectionInBlock(editorState)) return 'not-handled';
 
-      setEditorState(CodeUtils.handleTab(evt, editorState));
+      setEditorState(CodeUtils.onTab(evt, editorState));
       return 'handled';
     }
   }

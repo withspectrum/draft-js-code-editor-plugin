@@ -39,6 +39,6 @@
   "dependencies": {
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "draft-js": "0.x",
-    "draft-js-code": "^0.2.2"
+    "draft-js-code": "0.3.x"
   }
 }
