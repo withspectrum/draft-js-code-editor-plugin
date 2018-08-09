@@ -33,7 +33,7 @@
     "lint-staged": "^4.3.0",
     "prettier": "^1.14.2",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1",
+    "react-dom": "^15.6.2",
     "rimraf": "^2.6.2"
   },
   "dependencies": {
