@@ -12,7 +12,7 @@ type Command = string;
 
 const createCodeEditorPlugin = (options?: Options) => {
   return {
-    handleKeyCommand(command: Command, editorState: EditorState, { setEditorState }: PluginFunctions) {
+    handleKeyCommand(command: Command, editorState: EditorState, _: any, { setEditorState }: PluginFunctions) {
       let newState;
 
       if (CodeUtils.hasSelectionInBlock(editorState)) {
